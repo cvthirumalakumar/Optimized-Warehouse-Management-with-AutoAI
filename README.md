@@ -47,7 +47,7 @@ Decreases economical loss by reducing the wastage of perishable raw materials.
 Increases profits by predicting the required quantity of demanded raw materials.
 Less human effort for prediction of demand.
 Helps in business expansion.
-https://www.potential.com/articles/project-scope/----->Article regarding Project scope
+https://www.potential.com/articles/project-scope/ - Article regarding Project scope
 
 
 1.2 Work Division and Scheduling:
@@ -58,7 +58,7 @@ https://www.potential.com/articles/project-scope/----->Article regarding Project
 
 2.1 Collecting Data:
     Collection of required data is the primary task in any machine learning model.The size of the dataset matters in the accuracy of the model.And also it needs to have the required features which are essential for prediction.In this task we will collect/gather all the available data from Kaggle.We will separate the collected data as per our requirement.
-https://www.kaggle.com/shashkhr25/food-demand-forecasting-challange/data----Data Source Kaggle Link
+https://www.kaggle.com/shashkhr25/food-demand-forecasting-challange/data  -  Data Source Kaggle Link
 3.Pre-processing data:-
 Description:Pre-processing of the collected data into required form to meet the project needs is also the big-milestone.In this milestone we will be dealing with the data-transformation and splitting data.The remaining pre-processings related to null data and erroneous data are not required as we are using AutoAI.
 
@@ -72,28 +72,28 @@ Description:Pre-processing of the collected data into required form to meet the 
 4.1 Creating IBM Cloud account:
     Creation of IBM Cloud account will be done in this activity.Lite account is sufficient to develop this model.The necessary steps for creating the IBM Cloud account are clearly mentioned in the documentation.Follow the reference links to know about the
 Signing up process. 
-https://www.youtube.com/watch?v=HBkY-Fs1d6E---Youtube Video
-https://cloud.ibm.com/registration----Registration page
-https://cloud.ibm.com/docs/account?topic=account-signup---documentation on creating account
+https://www.youtube.com/watch?v=HBkY-Fs1d6E  - Youtube Video
+https://cloud.ibm.com/registration  -  Registration page
+https://cloud.ibm.com/docs/account?topic=account-signup  -  documentation on creating account
 4.2 Creating Cloud Object Storage Service:
     Storage service is essential to create and use the services in the cloud.So,we are creating the Cloud Object Storage Service to meet the storage needs for the necessary services.Follow the reference link to know more about Cloud Object Storage Service and it’s uses.
-https://www.ibm.com/cloud/object-storage--Documentation on what is cloud Object Storage
-.https://www.youtube.com/watch?v=VEoj69V6Rfg---Youtube video on creating Cloud Object Storage Service
-https://cloud.ibm.com/docs/cloud-object-storage/basics?topic=cloud-object-storage-provision---Documentation on creating Cloud Object Storage
+https://www.ibm.com/cloud/object-storage   -  Documentation on what is cloud Object Storage
+https://www.youtube.com/watch?v=VEoj69V6Rfg   -  Youtube video on creating Cloud Object Storage Service
+https://cloud.ibm.com/docs/cloud-object-storage/basics?topic=cloud-object-storage-provision  -Documentation on creating Cloud Object Storage
 
 4.3 Creating Machine Learning Service:
     Creation of Machine Learning Service,which is necessary to train the model with AutoAI in Watson Studio.Follow the reference link to know more about machine learning service and it’s creation steps.
-https://www.youtube.com/watch?v=NmdjtezQMSM---Youtube video on Machine learning service
+https://www.youtube.com/watch?v=NmdjtezQMSM   -  Youtube video on Machine learning service
 
 4.4 Creating Watson Studio Service:
     Creation of Watson Studio Service.AutoAI model options are available in Watson Studio.To use those AI services,we need to create the Watson Studio service first.
 
-https://developer.ibm.com/recipes/tutorials/create-an-ibm-watson-studio-project/--Documentation for creating IBM watson studio
+https://developer.ibm.com/recipes/tutorials/create-an-ibm-watson-studio-project/  -   Documentation for creating IBM watson studio
 
 4.5 Creating Node-Red Service:
     Creation of Node-Red for developing the User Interface(UI) while deploying the model.Node-Red is the suitable option to develop required User Interface(UI) without any background of programming knowledge.
-https://www.youtube.com/watch?v=eVHm9UIsbuI--Youtube video on creation of Node-Red
-https://www.youtube.com/watch?v=iEadmCNb_hE---Youtube Video on creation,developing of application on Node-Red
+https://www.youtube.com/watch?v=eVHm9UIsbuI  -  Youtube video on creation of Node-Red
+https://www.youtube.com/watch?v=iEadmCNb_hE   -  Youtube Video on creation,developing of application on Node-Red
 
 5.Building Model
 
@@ -103,7 +103,7 @@ https://www.youtube.com/watch?v=iEadmCNb_hE---Youtube Video on creation,developi
 Reference link:
 https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-build.html 
 
-https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step1---Sample model on IBM AutoAI
+https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step1    -  Sample model on IBM AutoAI
 5.2 Adding Assets
     Uploading the test data set file into the project.Model will be trained with the file which is present in the cloud.So,we need to upload the necessary data set file into the cloud before initiating the training process.  
 
@@ -114,26 +114,26 @@ https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/add-data-project
 
 6.1 Training AutoAI Model:
     Initiating the AutoAI model training with appropriate preferences and choosing the uploaded data set file.Saving the model with the best algorithm chosen by AutoAI by comparing the performances of the algorithms as model and deploying for further testing.
-https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step1 --Documentation on Training the AutoAI Model
-https://www.youtube.com/watch?v=O5wqjk_GeJo----Youtube video on creating,training,testing and deployment of AutoAI
+https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step1 - Documentation on Training the AutoAI Model
+https://www.youtube.com/watch?v=O5wqjk_GeJo   -  Youtube video on creating,training,testing and deployment of AutoAI
 
 
 6.2 Testing Model:
     Testing the deployed model with the test data set which is separated from the entire data set and observing the predicted results with actual values.And estimating the performance of the model.If performance of the model is not satisfying then we can go back to train the model with other suitable algorithms and can achieve best performance among the all the algorithms available in AutoAI.
 
-https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step3-Documentation on Testing AutoAI
-
+https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step3  -  Documentation on Testing AutoAI
+  
 7.Developing UI and Deployment
 
 7.1 Developing UI with Node-Red:
     Node-Red is a flow editor to develop the User Interface without any background programming knowledge.It is very easy to create and easily understandable.So,we chosen Node-Red service to develop the User Interface(UI) which is created previously in a suitable format.UI is created,which makes the user to interface with the trained model very easy.
 
-https://developer.ibm.com/components/node-red/tutorials/how-to-create-a-node-red-starter-application/--Documentation on create node-red application
+https://developer.ibm.com/components/node-red/tutorials/how-to-create-a-node-red-starter-application/  -   Documentation on create node-red application
 
 
 7.2 Deploying the Model on UI:
     Deploying the model on created UI by generating required API credentials and connecting the UI with the deployed model.
-https://www.youtube.com/watch?v=O5wqjk_GeJo--Boot camp video on deployment
+https://www.youtube.com/watch?v=O5wqjk_GeJo-  -   Boot camp video on deployment
     
 
 7.3 Interfacing with UI:
