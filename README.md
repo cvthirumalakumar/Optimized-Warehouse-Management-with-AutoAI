@@ -47,6 +47,7 @@ Decreases economical loss by reducing the wastage of perishable raw materials.
 Increases profits by predicting the required quantity of demanded raw materials.
 Less human effort for prediction of demand.
 Helps in business expansion.
+
 https://www.potential.com/articles/project-scope/ - Article regarding Project scope
 
 
@@ -58,7 +59,9 @@ https://www.potential.com/articles/project-scope/ - Article regarding Project sc
 
 2.1 Collecting Data:
     Collection of required data is the primary task in any machine learning model.The size of the dataset matters in the accuracy of the model.And also it needs to have the required features which are essential for prediction.In this task we will collect/gather all the available data from Kaggle.We will separate the collected data as per our requirement.
+    
 https://www.kaggle.com/shashkhr25/food-demand-forecasting-challange/data  -  Data Source Kaggle Link
+
 3.Pre-processing data:-
 Description:Pre-processing of the collected data into required form to meet the project needs is also the big-milestone.In this milestone we will be dealing with the data-transformation and splitting data.The remaining pre-processings related to null data and erroneous data are not required as we are using AutoAI.
 
