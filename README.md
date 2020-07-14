@@ -28,7 +28,6 @@ Solution:
 Machine learning is the most trending and useful technology for business predictions. It has several advantages like more accuracy,automates forecast updates based on recent data,high data processing speed etc when compared to the existing methods.So,we prefer machine learning model as a suitable solution for the given problem.
 
 1.Project Scope and Schedule:-
-Description:Understanding of the problem will play a crucial role in the building of a solution for any project .And this will be the first and non-technical milestone for any project.As a part of the milestone we will be understanding the problem from project scope and setting a timeline for the project.
 
 1.1 Project Scope:
 
@@ -56,7 +55,6 @@ https://www.potential.com/articles/project-scope/----->Article regarding Project
 
 
 2.Collection of Data:-
-Description:Data collection is the process of gathering information according to our needs.In any machine learning project data collection is the main task.So,we are making data collection as a separate milestone for our project.
 
 2.1 Collecting Data:
     Collection of required data is the primary task in any machine learning model.The size of the dataset matters in the accuracy of the model.And also it needs to have the required features which are essential for prediction.In this task we will collect/gather all the available data from Kaggle.We will separate the collected data as per our requirement.
@@ -70,7 +68,6 @@ Description:Pre-processing of the collected data into required form to meet the 
     Division of entire data set into training set and testing set.Training set will be fed to the model in training and test set will be used to test the model after training.AutoAI  will train the model with given data by splitting .But we are dividing the data to test the trained model manually with our hands.For this we need separate data.So,we are splitting the data before giving it to AutoAI.
 
 4.Setting up IBM Cloud Environment:-
-Description:As we are using the AutoAI model,we need to set up the required environment in IBM Cloud to use AutoAI.This will be another big task for our project.This includes creation of all necessary services with proper care to develop the AutoAI.
 
 4.1 Creating IBM Cloud account:
     Creation of IBM Cloud account will be done in this activity.Lite account is sufficient to develop this model.The necessary steps for creating the IBM Cloud account are clearly mentioned in the documentation.Follow the reference links to know about the
@@ -99,7 +96,6 @@ https://www.youtube.com/watch?v=eVHm9UIsbuI--Youtube video on creation of Node-R
 https://www.youtube.com/watch?v=iEadmCNb_hE---Youtube Video on creation,developing of application on Node-Red
 
 5.Building Model
-Description:After creating the required services,we have the task of creating a project with all those required services and making the model ready to train.This includes adding the required services to create the project and adding the necessary dataset files into the cloud storage.
 
 5.1 Creating Watson AutoAI Project:
     Creation of AutoAI project with necessary services like Cloud Object Storage and Machine Learning services,which were created previously.Cloud Object Storage is for storing the project belonging files in the cloud.And machine learning service for using the machine learning models and deployments.Follow the reference links to know more.
@@ -115,7 +111,6 @@ Reference link:
 https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/add-data-project.html
 
 6.Training and Testing model
-Description:Training and Testing plays a major role in the development of any machine learning model.After completion of building the model we need to train the model with training dataset and test the model after training to know about the performance of trained model.This will be an iterative process.If we didn’t get the expected performance,we need to train the model with another suitable algorithm.
 
 6.1 Training AutoAI Model:
     Initiating the AutoAI model training with appropriate preferences and choosing the uploaded data set file.Saving the model with the best algorithm chosen by AutoAI by comparing the performances of the algorithms as model and deploying for further testing.
@@ -129,7 +124,6 @@ https://www.youtube.com/watch?v=O5wqjk_GeJo----Youtube video on creating,trainin
 https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step3-Documentation on Testing AutoAI
 
 7.Developing UI and Deployment
-Description:Developed model needs to be deployed on an User Interface(UI).This will be the final milestone for our project.This includes developing the appropriate UI and deploying the model onto the UI to interface the user with the developed model.
 
 7.1 Developing UI with Node-Red:
     Node-Red is a flow editor to develop the User Interface without any background programming knowledge.It is very easy to create and easily understandable.So,we chosen Node-Red service to develop the User Interface(UI) which is created previously in a suitable format.UI is created,which makes the user to interface with the trained model very easy.
