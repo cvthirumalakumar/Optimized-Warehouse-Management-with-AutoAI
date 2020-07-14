@@ -11,10 +11,10 @@ In this challenge we took the problem of Optimized Warehouse Management of Peris
 
 We provided the project documentation file in the repository please check that documentation file to know full details about the project.
 
-Our User Interface link:https://node-red-sdrss.eu-gb.mybluemix.net/ui/
+Our User Interface link : https://node-red-sdrss.eu-gb.mybluemix.net/ui/
 
 We made a video for demonstration of our entire project.
-Youtube link for our video demonstration:https://youtu.be/j7WTdpjLSyk
+Youtube link for our video demonstration : https://youtu.be/j7WTdpjLSyk
 
 
 Below is our project template to gain you some basic knowledge on our project.Please read documentation file for full details.
@@ -97,6 +97,7 @@ https://developer.ibm.com/recipes/tutorials/create-an-ibm-watson-studio-project/
     Creation of Node-Red for developing the User Interface(UI) while deploying the model.Node-Red is the suitable option to develop required User Interface(UI) without any background of programming knowledge.
 https://www.youtube.com/watch?v=eVHm9UIsbuI--Youtube video on creation of Node-Red
 https://www.youtube.com/watch?v=iEadmCNb_hE---Youtube Video on creation,developing of application on Node-Red
+
 5.Building Model
 Description:After creating the required services,we have the task of creating a project with all those required services and making the model ready to train.This includes adding the required services to create the project and adding the necessary dataset files into the cloud storage.
 
