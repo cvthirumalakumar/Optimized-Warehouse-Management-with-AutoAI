@@ -72,17 +72,24 @@ Description:Pre-processing of the collected data into required form to meet the 
 4.1 Creating IBM Cloud account:
     Creation of IBM Cloud account will be done in this activity.Lite account is sufficient to develop this model.The necessary steps for creating the IBM Cloud account are clearly mentioned in the documentation.Follow the reference links to know about the
 Signing up process. 
+
 https://www.youtube.com/watch?v=HBkY-Fs1d6E  - Youtube Video
+
 https://cloud.ibm.com/registration  -  Registration page
+
 https://cloud.ibm.com/docs/account?topic=account-signup  -  documentation on creating account
 4.2 Creating Cloud Object Storage Service:
     Storage service is essential to create and use the services in the cloud.So,we are creating the Cloud Object Storage Service to meet the storage needs for the necessary services.Follow the reference link to know more about Cloud Object Storage Service and it’s uses.
+    
 https://www.ibm.com/cloud/object-storage   -  Documentation on what is cloud Object Storage
+
 https://www.youtube.com/watch?v=VEoj69V6Rfg   -  Youtube video on creating Cloud Object Storage Service
+
 https://cloud.ibm.com/docs/cloud-object-storage/basics?topic=cloud-object-storage-provision  -Documentation on creating Cloud Object Storage
 
 4.3 Creating Machine Learning Service:
     Creation of Machine Learning Service,which is necessary to train the model with AutoAI in Watson Studio.Follow the reference link to know more about machine learning service and it’s creation steps.
+    
 https://www.youtube.com/watch?v=NmdjtezQMSM   -  Youtube video on Machine learning service
 
 4.4 Creating Watson Studio Service:
@@ -92,7 +99,9 @@ https://developer.ibm.com/recipes/tutorials/create-an-ibm-watson-studio-project/
 
 4.5 Creating Node-Red Service:
     Creation of Node-Red for developing the User Interface(UI) while deploying the model.Node-Red is the suitable option to develop required User Interface(UI) without any background of programming knowledge.
+    
 https://www.youtube.com/watch?v=eVHm9UIsbuI  -  Youtube video on creation of Node-Red
+
 https://www.youtube.com/watch?v=iEadmCNb_hE   -  Youtube Video on creation,developing of application on Node-Red
 
 5.Building Model
@@ -114,7 +123,9 @@ https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/add-data-project
 
 6.1 Training AutoAI Model:
     Initiating the AutoAI model training with appropriate preferences and choosing the uploaded data set file.Saving the model with the best algorithm chosen by AutoAI by comparing the performances of the algorithms as model and deploying for further testing.
+    
 https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step1 - Documentation on Training the AutoAI Model
+
 https://www.youtube.com/watch?v=O5wqjk_GeJo   -  Youtube video on creating,training,testing and deployment of AutoAI
 
 
@@ -133,6 +144,7 @@ https://developer.ibm.com/components/node-red/tutorials/how-to-create-a-node-red
 
 7.2 Deploying the Model on UI:
     Deploying the model on created UI by generating required API credentials and connecting the UI with the deployed model.
+    
 https://www.youtube.com/watch?v=O5wqjk_GeJo-  -   Boot camp video on deployment
     
 
