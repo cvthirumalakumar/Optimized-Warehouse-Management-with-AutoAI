@@ -55,31 +55,30 @@ Helps in business expansion.
 ### 1.2 Work Division and Scheduling: 
 
 
-  <p>  Division of total work into separate tasks and assigning the task works among the team members based on their work experiences and interests.
+ <p>  Division of total work into separate tasks and assigning the task works among the team members based on their work experiences and interests.
     Then assigning time for each task based on the complexity of the tasks.
 
 
 ## 2.Collection of Data:-
 
 ### 2.1 Collecting Data:
-
-    Collection of required data is the primary task in any machine learning model.The size of the dataset matters in the accuracy of the model.And also it needs to have the required features which are essential for prediction.In this task we will collect/gather all the available data from Kaggle.We will separate the collected data as per our requirement.
+   Collection of required data is the primary task in any machine learning model.The size of the dataset matters in the accuracy of the model.And also it needs to have the required features which are essential for prediction.In this task we will collect/gather all the available data from Kaggle.We will separate the collected data as per our requirement.
     
    Data Source Kaggle [Link](https://www.kaggle.com/shashkhr25/food-demand-forecasting-challange/data)
 
 ## 3.Pre-processing data:-
-    Description:Pre-processing of the collected data into required form to meet the project needs is also the big-milestone.In this milestone we will be dealing with the data-transformation and splitting data.The remaining pre-processings related to null data and erroneous data are not required as we are using AutoAI.
+   Description:Pre-processing of the collected data into required form to meet the project needs is also the big-milestone.In this milestone we will be dealing with the data-transformation and splitting data.The remaining pre-processings related to null data and erroneous data are not required as we are using AutoAI.
 
 ### 3.1 Transforming Data:
-    Transforming the collected raw data into required form.The collected data is  specifying total number of orders in specific centers in particular week.As we are predicting the number of orders for next 10 weeks.We are grouping the orders in the scale of 10 weeks(i.e.Summing up the total number of orders of first 10 weeks as 1st category and next 10 weeks as 2nd category and so on).Then it will be easy to predict the demand for next 10 weeks in single step.
+   Transforming the collected raw data into required form.The collected data is  specifying total number of orders in specific centers in particular week.As we are predicting the number of orders for next 10 weeks.We are grouping the orders in the scale of 10 weeks(i.e.Summing up the total number of orders of first 10 weeks as 1st category and next 10 weeks as 2nd category and so on).Then it will be easy to predict the demand for next 10 weeks in single step.
 ### 3.2 Splitting Data:
-    Division of entire data set into training set and testing set.Training set will be fed to the model in training and test set will be used to test the model after training.AutoAI  will train the model with given data by splitting .But we are dividing the data to test the trained model manually with our hands.For this we need separate data.So,we are splitting the data before giving it to AutoAI.
+   Division of entire data set into training set and testing set.Training set will be fed to the model in training and test set will be used to test the model after training.AutoAI  will train the model with given data by splitting .But we are dividing the data to test the trained model manually with our hands.For this we need separate data.So,we are splitting the data before giving it to AutoAI.
 
 ## 4.Setting up IBM Cloud Environment:-
 
 ### 4.1 Creating IBM Cloud account:
 
-    Creation of IBM Cloud account will be done in this activity.Lite account is sufficient to develop this model.The necessary steps for creating the IBM Cloud account are clearly mentioned in the documentation.Follow the reference links to know about the
+   Creation of IBM Cloud account will be done in this activity.Lite account is sufficient to develop this model.The necessary steps for creating the IBM Cloud account are clearly mentioned in the documentation.Follow the reference links to know about the
 
 Signing up process. 
 
@@ -90,7 +89,7 @@ Signing up process.
   documentation on creating account [click here](https://cloud.ibm.com/docs/account?topic=account-signup)
 ### 4.2 Creating Cloud Object Storage Service:
 
-    Storage service is essential to create and use the services in the cloud.So,we are creating the Cloud Object Storage Service to meet the storage needs for the necessary services.Follow the reference link to know more about Cloud Object Storage Service and it’s uses.
+   Storage service is essential to create and use the services in the cloud.So,we are creating the Cloud Object Storage Service to meet the storage needs for the necessary services.Follow the reference link to know more about Cloud Object Storage Service and it’s uses.
     
    Documentation on what is [cloud Object Storage](https://www.ibm.com/cloud/object-storage)
 
@@ -99,17 +98,17 @@ Signing up process.
  Documentation on creating Cloud Object Storage [click here](https://cloud.ibm.com/docs/cloud-object-storage/basics?topic=cloud-object-storage-provision )
 
 ### 4.3 Creating Machine Learning Service:
-    Creation of Machine Learning Service,which is necessary to train the model with AutoAI in Watson Studio.Follow the reference link to know more about machine learning service and it’s creation steps.
+   Creation of Machine Learning Service,which is necessary to train the model with AutoAI in Watson Studio.Follow the reference link to know more about machine learning service and it’s creation steps.
     
    Youtube video on Machine learning service [click here](https://www.youtube.com/watch?v=NmdjtezQMSM).
 
 ### 4.4 Creating Watson Studio Service:
-    Creation of Watson Studio Service.AutoAI model options are available in Watson Studio.To use those AI services,we need to create the Watson Studio service first.
+   Creation of Watson Studio Service.AutoAI model options are available in Watson Studio.To use those AI services,we need to create the Watson Studio service first.
 
    Documentation for creating IBM watson studio [click here](https://developer.ibm.com/recipes/tutorials/create-an-ibm-watson-studio-project/).
 
 ### 4.5 Creating Node-Red Service:
-    Creation of Node-Red for developing the User Interface(UI) while deploying the model.Node-Red is the suitable option to develop required User Interface(UI) without any background of programming knowledge.
+   Creation of Node-Red for developing the User Interface(UI) while deploying the model.Node-Red is the suitable option to develop required User Interface(UI) without any background of programming knowledge.
     
    Youtube video on creation of [Node-Red](https://www.youtube.com/watch?v=eVHm9UIsbuI).
 
@@ -118,7 +117,7 @@ Signing up process.
 ## 5.Building Model
 
 ### 5.1 Creating Watson AutoAI Project:
-    Creation of AutoAI project with necessary services like Cloud Object Storage and Machine Learning services,which were created previously.Cloud Object Storage is for storing the project belonging files in the cloud.And machine learning service for using the machine learning models and deployments.Follow the reference links to know more.
+   Creation of AutoAI project with necessary services like Cloud Object Storage and Machine Learning services,which were created previously.Cloud Object Storage is for storing the project belonging files in the cloud.And machine learning service for using the machine learning models and deployments.Follow the reference links to know more.
 
 Reference link:
 
@@ -126,7 +125,7 @@ https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-build.ht
 
 https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step1    -  Sample model on IBM AutoAI
 ### 5.2 Adding Assets
-    Uploading the test data set file into the project.Model will be trained with the file which is present in the cloud.So,we need to upload the necessary data set file into the cloud before initiating the training process.  
+   Uploading the test data set file into the project.Model will be trained with the file which is present in the cloud.So,we need to upload the necessary data set file into the cloud before initiating the training process.  
 
 Reference link:
 
@@ -137,7 +136,7 @@ https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/add-data-project
 ## 6.Training and Testing model
 
 ### 6.1 Training AutoAI Model:
-    Initiating the AutoAI model training with appropriate preferences and choosing the uploaded data set file.Saving the model with the best algorithm chosen by AutoAI by comparing the performances of the algorithms as model and deploying for further testing.
+   Initiating the AutoAI model training with appropriate preferences and choosing the uploaded data set file.Saving the model with the best algorithm chosen by AutoAI by comparing the performances of the algorithms as model and deploying for further testing.
     
  Documentation on Training the [AutoAI](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step1) Model
 
@@ -147,23 +146,23 @@ https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/add-data-project
  ### 6.2 Testing Model:
  
  
-    Testing the deployed model with the test data set which is separated from the entire data set and observing the predicted results with actual values.And estimating the performance of the model.If performance of the model is not satisfying then we can go back to train the model with other suitable algorithms and can achieve best performance among the all the algorithms available in AutoAI.
+   Testing the deployed model with the test data set which is separated from the entire data set and observing the predicted results with actual values.And estimating the performance of the model.If performance of the model is not satisfying then we can go back to train the model with other suitable algorithms and can achieve best performance among the all the algorithms available in AutoAI.
 
   Documentation on [Testing AutoAI](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step3).
   
 ## 7.Developing UI and Deployment
 
  ### 7.1 Developing UI with Node-Red:
-    Node-Red is a flow editor to develop the User Interface without any background programming knowledge.It is very easy to create and easily understandable.So,we chosen Node-Red service to develop the User Interface(UI) which is created previously in a suitable format.UI is created,which makes the user to interface with the trained model very easy.
+   Node-Red is a flow editor to develop the User Interface without any background programming knowledge.It is very easy to create and easily understandable.So,we chosen Node-Red service to develop the User Interface(UI) which is created previously in a suitable format.UI is created,which makes the user to interface with the trained model very easy.
 
  Documentation on create [node-red application](https://developer.ibm.com/components/node-red/tutorials/how-to-create-a-node-red-starter-application/ ).
 
 
  ### 7.2 Deploying the Model on UI:
-    Deploying the model on created UI by generating required API credentials and connecting the UI with the deployed model.
+   Deploying the model on created UI by generating required API credentials and connecting the UI with the deployed model.
     
  Boot camp video on deployment [link](https://www.youtube.com/watch?v=O5wqjk_GeJo- ).
     
 
  ### 7.3 Interfacing with UI:
-    Verifying the final ready-to-use model and testing the model from User Interface(UI)(Accessing the final model through UI).Making necessary changes to the UI to make the user feel easy to access the model.And submitting the final model.
+   Verifying the final ready-to-use model and testing the model from User Interface(UI)(Accessing the final model through UI).Making necessary changes to the UI to make the user feel easy to access the model.And submitting the final model.
