@@ -1,5 +1,5 @@
 # SBSPS-Challenge-2688-Optimised-Warehouse-Management-with-AutoAI
-IBM HACK CHALLENGE 2020:It is all about coding for a cause.It’s about finding solutions for the problems that are existing in the society and becoming difficult to face.
+__IBM HACK CHALLENGE 2020:__ It is all about coding for a cause.It’s about finding solutions for the problems that are existing in the society and becoming difficult to face.
 
 This projects is done as a part of IBM Hack Challenge 2020
 
@@ -20,12 +20,12 @@ Youtube link for our video demonstration : https://youtu.be/j7WTdpjLSyk
 
 Below is our project template to gain you some basic knowledge on our project.Please read documentation file for full details.
 Project Template
-Title: Optimised Warehouse Management with AutoAI
+__Title__ : Optimised Warehouse Management with AutoAI
 Problem Statement:
         A food delivery company has to face lot of problems with
 Perishable raw materials.Mainly not able to predict the sufficient future demands for the company.Due to this there will be more risk of wastage of materials or leads to out of stock.In both cases the company has to face economical loss.So,there is a need for accurate prediction of demands.Old statistical methods needs to be developed by using the current technology for accurate predictions.
         
-Solution:
+__Solution:__ 
 Machine learning is the most trending and useful technology for business predictions. It has several advantages like more accuracy,automates forecast updates based on recent data,high data processing speed etc when compared to the existing methods.So,we prefer machine learning model as a suitable solution for the given problem.
 
 ## 1.Project Scope and Schedule:-
@@ -34,14 +34,14 @@ Machine learning is the most trending and useful technology for business predict
 
    Understanding the Scope of work from the following points
 
-Goal of the Project:
+__Goal of the Project:__ 
     The goal of this project is to predict the demanded raw materials for next 10 weeks or future.To reduce the economical loss by reducing the wastage of perishable raw materials and can attain profits by securing the needs for demand.
 
 Objective of the Deliverables:
 
-   Task: Collecting the historical data from the food company that contains details about the past orders and training the model with the data and validating the model.
+   __Task:__ Collecting the historical data from the food company that contains details about the past orders and training the model with the data and validating the model.
 
-Deliverable: A list containing the details about the requirement of raw materials for next  10 weeks.
+__Deliverable__ : A list containing the details about the requirement of raw materials for next  10 weeks.
 Difficulty Level:No need of coding experience with AutoAI.Easy to deploy with Node-Red(Basic understanding of HTML is sufficient).
 Business / Social Impact:-
 Decreases economical loss by reducing the wastage of perishable raw materials.
