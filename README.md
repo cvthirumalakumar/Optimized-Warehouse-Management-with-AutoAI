@@ -64,7 +64,7 @@ Helps in business expansion.
 
     Collection of required data is the primary task in any machine learning model.The size of the dataset matters in the accuracy of the model.And also it needs to have the required features which are essential for prediction.In this task we will collect/gather all the available data from Kaggle.We will separate the collected data as per our requirement.
     
-https://www.kaggle.com/shashkhr25/food-demand-forecasting-challange/data  -  Data Source Kaggle Link
+   Data Source Kaggle [Link](https://www.kaggle.com/shashkhr25/food-demand-forecasting-challange/data)
 
 ## 3.Pre-processing data:-
     Description:Pre-processing of the collected data into required form to meet the project needs is also the big-milestone.In this milestone we will be dealing with the data-transformation and splitting data.The remaining pre-processings related to null data and erroneous data are not required as we are using AutoAI.
@@ -82,37 +82,37 @@ https://www.kaggle.com/shashkhr25/food-demand-forecasting-challange/data  -  Dat
 
 Signing up process. 
 
-https://www.youtube.com/watch?v=HBkY-Fs1d6E  - Youtube Video
+   Youtube Video [visit](https://www.youtube.com/watch?v=HBkY-Fs1d6E)
 
-https://cloud.ibm.com/registration  -  Registration page
-
-https://cloud.ibm.com/docs/account?topic=account-signup  -  documentation on creating account
+   Registration page [click here](https://cloud.ibm.com/registration)
+   
+  documentation on creating account [click here](https://cloud.ibm.com/docs/account?topic=account-signup)
 ### 4.2 Creating Cloud Object Storage Service:
 
     Storage service is essential to create and use the services in the cloud.So,we are creating the Cloud Object Storage Service to meet the storage needs for the necessary services.Follow the reference link to know more about Cloud Object Storage Service and it’s uses.
     
-https://www.ibm.com/cloud/object-storage   -  Documentation on what is cloud Object Storage
+   Documentation on what is [cloud Object Storage](https://www.ibm.com/cloud/object-storage)
 
-https://www.youtube.com/watch?v=VEoj69V6Rfg   -  Youtube video on creating Cloud Object Storage Service
+  Youtube video on creating Cloud Object Storage Service[click here](https://www.youtube.com/watch?v=VEoj69V6Rfg )
 
-https://cloud.ibm.com/docs/cloud-object-storage/basics?topic=cloud-object-storage-provision  -Documentation on creating Cloud Object Storage
+ Documentation on creating Cloud Object Storage [click here](https://cloud.ibm.com/docs/cloud-object-storage/basics?topic=cloud-object-storage-provision )
 
 ### 4.3 Creating Machine Learning Service:
     Creation of Machine Learning Service,which is necessary to train the model with AutoAI in Watson Studio.Follow the reference link to know more about machine learning service and it’s creation steps.
     
-https://www.youtube.com/watch?v=NmdjtezQMSM   -  Youtube video on Machine learning service
+   Youtube video on Machine learning service [click here](https://www.youtube.com/watch?v=NmdjtezQMSM).
 
 ### 4.4 Creating Watson Studio Service:
     Creation of Watson Studio Service.AutoAI model options are available in Watson Studio.To use those AI services,we need to create the Watson Studio service first.
 
-https://developer.ibm.com/recipes/tutorials/create-an-ibm-watson-studio-project/  -   Documentation for creating IBM watson studio
+   Documentation for creating IBM watson studio [click here](https://developer.ibm.com/recipes/tutorials/create-an-ibm-watson-studio-project/).
 
 ### 4.5 Creating Node-Red Service:
     Creation of Node-Red for developing the User Interface(UI) while deploying the model.Node-Red is the suitable option to develop required User Interface(UI) without any background of programming knowledge.
     
-https://www.youtube.com/watch?v=eVHm9UIsbuI  -  Youtube video on creation of Node-Red
+   Youtube video on creation of [Node-Red](https://www.youtube.com/watch?v=eVHm9UIsbuI).
 
-https://www.youtube.com/watch?v=iEadmCNb_hE   -  Youtube Video on creation,developing of application on Node-Red
+   Youtube Video on creation,developing of application on Node-Red [click here](https://www.youtube.com/watch?v=iEadmCNb_hE).
 
 ## 5.Building Model
 
@@ -120,7 +120,7 @@ https://www.youtube.com/watch?v=iEadmCNb_hE   -  Youtube Video on creation,devel
     Creation of AutoAI project with necessary services like Cloud Object Storage and Machine Learning services,which were created previously.Cloud Object Storage is for storing the project belonging files in the cloud.And machine learning service for using the machine learning models and deployments.Follow the reference links to know more.
 
 Reference link:
-https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-build.html 
+https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-build.html     
 
 https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step1    -  Sample model on IBM AutoAI
 ### 5.2 Adding Assets
@@ -134,9 +134,9 @@ https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/add-data-project
 ### 6.1 Training AutoAI Model:
     Initiating the AutoAI model training with appropriate preferences and choosing the uploaded data set file.Saving the model with the best algorithm chosen by AutoAI by comparing the performances of the algorithms as model and deploying for further testing.
     
-https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step1 - Documentation on Training the AutoAI Model
+ Documentation on Training the [AutoAI](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step1) Model
 
-https://www.youtube.com/watch?v=O5wqjk_GeJo   -  Youtube video on creating,training,testing and deployment of AutoAI
+ Youtube video on creating,training,testing and deployment of AutoAI [click here](https://www.youtube.com/watch?v=O5wqjk_GeJo ).
 
 
  ### 6.2 Testing Model:
@@ -144,20 +144,20 @@ https://www.youtube.com/watch?v=O5wqjk_GeJo   -  Youtube video on creating,train
  
     Testing the deployed model with the test data set which is separated from the entire data set and observing the predicted results with actual values.And estimating the performance of the model.If performance of the model is not satisfying then we can go back to train the model with other suitable algorithms and can achieve best performance among the all the algorithms available in AutoAI.
 
-https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step3  -  Documentation on Testing AutoAI
+  Documentation on [Testing AutoAI](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step3).
   
 ## 7.Developing UI and Deployment
 
  ### 7.1 Developing UI with Node-Red:
     Node-Red is a flow editor to develop the User Interface without any background programming knowledge.It is very easy to create and easily understandable.So,we chosen Node-Red service to develop the User Interface(UI) which is created previously in a suitable format.UI is created,which makes the user to interface with the trained model very easy.
 
-https://developer.ibm.com/components/node-red/tutorials/how-to-create-a-node-red-starter-application/  -   Documentation on create node-red application
+ Documentation on create [node-red application](https://developer.ibm.com/components/node-red/tutorials/how-to-create-a-node-red-starter-application/ ).
 
 
  ### 7.2 Deploying the Model on UI:
     Deploying the model on created UI by generating required API credentials and connecting the UI with the deployed model.
     
-https://www.youtube.com/watch?v=O5wqjk_GeJo-  -   Boot camp video on deployment
+ Boot camp video on deployment [link](https://www.youtube.com/watch?v=O5wqjk_GeJo- ).
     
 
  ### 7.3 Interfacing with UI:
