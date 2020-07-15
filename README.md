@@ -3,9 +3,9 @@ IBM HACK CHALLENGE 2020:It is all about coding for a cause.It’s about finding 
 
 This projects is done as a part of IBM Hack Challenge 2020
 
-##*** Team Name : Challenging Coders
+*** Team Name : Challenging Coders
 
-##*** Contest : IBM Hack Challenge 2020
+*** Contest : IBM Hack Challenge 2020
 
 In this challenge we took the problem of Optimized Warehouse Management of Perishable Goods for a Food Delivery Company.
 
@@ -51,13 +51,15 @@ Helps in business expansion.
 * [Article](https://www.potential.com/articles/project-scope/) -  regarding Project scope
 
 
-### 1.2 Work Division and Scheduling:
+### 1.2 Work Division and Scheduling: 
+
     Division of total work into separate tasks and assigning the task works among the team members based on their work experiences and interests.Then assigning time for each task based on the complexity of the tasks.
 
 
 ## 2.Collection of Data:-
 
 ### 2.1 Collecting Data:
+
     Collection of required data is the primary task in any machine learning model.The size of the dataset matters in the accuracy of the model.And also it needs to have the required features which are essential for prediction.In this task we will collect/gather all the available data from Kaggle.We will separate the collected data as per our requirement.
     
 https://www.kaggle.com/shashkhr25/food-demand-forecasting-challange/data  -  Data Source Kaggle Link
@@ -73,6 +75,7 @@ https://www.kaggle.com/shashkhr25/food-demand-forecasting-challange/data  -  Dat
 ## 4.Setting up IBM Cloud Environment:-
 
 ### 4.1 Creating IBM Cloud account:
+
     Creation of IBM Cloud account will be done in this activity.Lite account is sufficient to develop this model.The necessary steps for creating the IBM Cloud account are clearly mentioned in the documentation.Follow the reference links to know about the
 
 Signing up process. 
@@ -83,6 +86,7 @@ https://cloud.ibm.com/registration  -  Registration page
 
 https://cloud.ibm.com/docs/account?topic=account-signup  -  documentation on creating account
 ### 4.2 Creating Cloud Object Storage Service:
+
     Storage service is essential to create and use the services in the cloud.So,we are creating the Cloud Object Storage Service to meet the storage needs for the necessary services.Follow the reference link to know more about Cloud Object Storage Service and it’s uses.
     
 https://www.ibm.com/cloud/object-storage   -  Documentation on what is cloud Object Storage
