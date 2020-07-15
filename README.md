@@ -53,7 +53,9 @@ Helps in business expansion.
 
 ### 1.2 Work Division and Scheduling: 
 
-    Division of total work into separate tasks and assigning the task works among the team members based on their work experiences and interests.Then assigning time for each task based on the complexity of the tasks.
+
+  <p>  Division of total work into separate tasks and assigning the task works among the team members based on their work experiences and interests.
+    Then assigning time for each task based on the complexity of the tasks.
 
 
 ## 2.Collection of Data:-
@@ -138,6 +140,8 @@ https://www.youtube.com/watch?v=O5wqjk_GeJo   -  Youtube video on creating,train
 
 
  ### 6.2 Testing Model:
+ 
+ 
     Testing the deployed model with the test data set which is separated from the entire data set and observing the predicted results with actual values.And estimating the performance of the model.If performance of the model is not satisfying then we can go back to train the model with other suitable algorithms and can achieve best performance among the all the algorithms available in AutoAI.
 
 https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step3  -  Documentation on Testing AutoAI
