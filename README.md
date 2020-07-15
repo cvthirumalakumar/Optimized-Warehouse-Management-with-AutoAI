@@ -121,6 +121,7 @@ Signing up process.
     Creation of AutoAI project with necessary services like Cloud Object Storage and Machine Learning services,which were created previously.Cloud Object Storage is for storing the project belonging files in the cloud.And machine learning service for using the machine learning models and deployments.Follow the reference links to know more.
 
 Reference link:
+
 https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-build.html     
 
 https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_binary_classifier.html#step1    -  Sample model on IBM AutoAI
@@ -128,7 +129,10 @@ https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai_example_
     Uploading the test data set file into the project.Model will be trained with the file which is present in the cloud.So,we need to upload the necessary data set file into the cloud before initiating the training process.  
 
 Reference link:
+
 https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/add-data-project.html
+
+
 
 ## 6.Training and Testing model
 
