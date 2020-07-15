@@ -5,7 +5,7 @@ This projects is done as a part of IBM Hack Challenge 2020
 
 *** __Team Name__ : *__Challenging Coders__*
 
-*** __Contest : *IBM Hack Challenge 2020*
+*** __Contest__ : *__IBM Hack Challenge 2020__*
 
 In this challenge we took the problem of Optimized Warehouse Management of Perishable Goods for a Food Delivery Company.
 
