@@ -3,9 +3,9 @@ IBM HACK CHALLENGE 2020:It is all about coding for a cause.It’s about finding 
 
 This projects is done as a part of IBM Hack Challenge 2020
 
-*** Team Name : Challenging Coders
+*** __Team Name__ : *__Challenging Coders__*
 
-*** Contest : IBM Hack Challenge 2020
+*** __Contest : *IBM Hack Challenge 2020*
 
 In this challenge we took the problem of Optimized Warehouse Management of Perishable Goods for a Food Delivery Company.
 
@@ -14,6 +14,7 @@ We provided the project documentation file in the repository please check that d
 Our User Interface link : https://node-red-sdrss.eu-gb.mybluemix.net/ui/
 
 We made a video for demonstration of our entire project.
+
 Youtube link for our video demonstration : https://youtu.be/j7WTdpjLSyk
 
 
