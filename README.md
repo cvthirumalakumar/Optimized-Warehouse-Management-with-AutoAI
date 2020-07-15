@@ -3,9 +3,9 @@ __IBM HACK CHALLENGE 2020:__ It is all about coding for a cause.It’s about fin
 
 This projects is done as a part of IBM Hack Challenge 2020
 
-*** __Team Name__ : *__Challenging Coders__*
+  __Team Name__ : *__Challenging Coders__*
 
-*** __Contest__ : *__IBM Hack Challenge 2020__*
+   __Contest__ : *__IBM Hack Challenge 2020__*
 
 In this challenge we took the problem of Optimized Warehouse Management of Perishable Goods for a Food Delivery Company.
 
