@@ -1,4 +1,4 @@
-# SBSPS-Challenge-2688-Optimised-Warehouse-Management-with-AutoAI
+# Optimised-Warehouse-Management-with-AutoAI
 __IBM HACK CHALLENGE 2020:__ It is all about coding for a cause.It’s about finding solutions for the problems that are existing in the society and becoming difficult to face.
 
 This projects is done as a part of IBM Hack Challenge 2020
